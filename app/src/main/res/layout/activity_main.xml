@@ -38,5 +38,13 @@
             android:text="Login"
             android:id="@+id/btLogin"
             android:onClick="logar" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver 1"
+            android:id="@+id/btReceiver1"
+            android:onClick="btReceiver1" />
+
     </LinearLayout>
 </RelativeLayout>
