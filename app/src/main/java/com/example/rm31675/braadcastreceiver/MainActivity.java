@@ -25,10 +25,4 @@ public class MainActivity extends AppCompatActivity {
         sendBroadcast(i);
     }
 
-    public void btReceiver2 (View v){
-        Intent i = new Intent();
-        i.setAction("orderedbroadcast");
-        sendBroadcast(i);
-    }
-
 }
